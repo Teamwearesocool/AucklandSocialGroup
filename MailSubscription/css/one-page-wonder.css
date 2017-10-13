@@ -9,7 +9,9 @@ body {
 }
 
 /*@media all and (min-width:992px)*/
-
+*, ::after, ::before {
+    box-sizing: inherit;
+    text-align: center;
 }
 
 body {
@@ -19,7 +21,7 @@ body {
     line-height: 1.5;
     color: #212529;
     background-color: #fff;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -31,15 +33,25 @@ body {
     text-align: center;
 }
 
+
+.form-group *, ::after, ::before {
+    box-sizing: inherit;
+    text-align: center;
+
+}
+
+
 @media (min-width: 992px) {
     body {
         padding-top: 56px;
+        text-align: center;
     }
     
     .display-1 {
     font-size: 5rem;
     font-weight: 300;
     line-height: 1.1;
+    text-align: center;
 }
 
 }
@@ -68,6 +80,7 @@ header.masthead > .overlay {
     padding: 5rem 0;
     text-align: center;
     background: rgba(0, 0, 0, 0.6);
+    text-align: center;
 }
 
 
@@ -79,11 +92,30 @@ body {
     line-height: 1.5;
     color: #212529;
     background-color: #fff;
-    text-align: left;
+    text-align: center;
 }
 
 @media (min-width: 992px) {
     header.masthead > .overlay {
         padding: 10rem 0;
     }
+
+    /*@media all and (min-width:992px)*/
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+    text-align: center;
+}
+.fa-facebook-f::before, .fa-facebook::before {
+    content: "\f09a";
+    text-align: left;
+
+}
+/* bootstrap.min.css (6, 817) */
+*, ::after, ::before {
+    box-sizing: inherit;
+    text-align: left;
+}
+
+
 }
