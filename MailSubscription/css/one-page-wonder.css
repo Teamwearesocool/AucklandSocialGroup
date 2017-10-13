@@ -33,10 +33,10 @@ body {
     text-align: center;
 }
 
-
+/*@media all and (min-width:992px)*/
 .form-group *, ::after, ::before {
     box-sizing: inherit;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -99,7 +99,7 @@ body {
     header.masthead > .overlay {
         padding: 10rem 0;
     }
-
+}
     /*@media all and (min-width:992px)*/
 a:hover {
     color: #0056b3;
@@ -114,8 +114,6 @@ a:hover {
 /* bootstrap.min.css (6, 817) */
 *, ::after, ::before {
     box-sizing: inherit;
-    text-align: left;
+    text-align: center;
 }
 
-
-}
